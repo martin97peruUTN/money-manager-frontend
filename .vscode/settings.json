@@ -1,0 +1,41 @@
+{
+    "sqltools.connections": [
+        {
+            "pgOptions": {
+                "ssl": true
+            },
+            "previewLimit": 50,
+            "server": "db.bit.io",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "money-manager-bit.io",
+            "database": "martin97peru/money-manager",
+            "username": "martin97peru",
+            "password": "v2_3vXqh_48B8igD85aMGNeriuGvaneB"
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "aws-sa-east-1.connect.psdb.cloud",
+            "port": 3306,
+            "driver": "MySQL",
+            "connectString": "mysql -h aws-sa-east-1.connect.psdb.cloud -u xpnw53wwuc1imm7g4ad7 -ppscale_pw_TtElUEdFDvaanmV4ZPNBuYdt8IaqvT3e06eSThRF4Fe --ssl-mode=VERIFY_IDENTITY --ssl-ca=/etc/ssl/certs/ca-certificates.crt",
+            "name": "money-manager-app.planetscale.com",
+            "username": "u7v2p92mm3p0mmp5zzjo",
+            "password": "pscale_pw_wT5cqr9wwdxWPvC2siWtsmCxPHCUx3ZIHwP5bisCZQX",
+            "database": "money-manager"
+        },
+        {
+            "previewLimit": 50,
+            "server": "containers-us-west-31.railway.app",
+            "port": 8035,
+            "driver": "PostgreSQL",
+            "name": "money-manager-railway.app",
+            "password": "cXFEbqe3O91To2cZHwl0",
+            "username": "postgres",
+            "database": "railway"
+        }
+    ]
+}
